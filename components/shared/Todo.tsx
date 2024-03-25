@@ -4,10 +4,10 @@ import ChangeTodo from "./ChangeTodo";
 import EditTodo from "./EditTodo";
 import DeleteTodo from "./DeleteTodo";
 
-import { Todo } from "@/types/Todo";
+import { TodoType } from "@/types/Todo";
 
 export interface TodoProps {
-  todo: Todo;
+  todo: TodoType;
 }
 
 const Todo: FC<TodoProps> = ({ todo }) => {

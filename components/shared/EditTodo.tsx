@@ -7,12 +7,12 @@ import Form from "../ui/Form";
 import Button from "../ui/Button";
 import Input from "../ui/Input";
 
-import { Todo } from "@/types/Todo";
+import { TodoType } from "@/types/Todo";
 
 import { edit } from "@/app/actions/todoActions";
 
 export interface EditTodoProps {
-  todo: Todo;
+  todo: TodoType;
 }
 
 const EditTodo: FC<EditTodoProps> = ({ todo }) => {

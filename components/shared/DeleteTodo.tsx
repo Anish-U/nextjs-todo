@@ -9,10 +9,10 @@ import Form from "../ui/Form";
 
 import { deleteTodo } from "@/app/actions/todoActions";
 
-import { Todo } from "@/types/Todo";
+import { TodoType } from "@/types/Todo";
 
 export interface DeleteTodoProps {
-  todo: Todo;
+  todo: TodoType;
 }
 
 const DeleteTodo: FC<DeleteTodoProps> = ({ todo }) => {

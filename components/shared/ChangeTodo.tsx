@@ -5,12 +5,12 @@ import Form from "../ui/Form";
 import Input from "../ui/Input";
 import Button from "../ui/Button";
 
-import { Todo } from "@/types/Todo";
+import { TodoType } from "@/types/Todo";
 
 import { changeStatus } from "@/app/actions/todoActions";
 
 export interface ChangeTodoProps {
-  todo: Todo;
+  todo: TodoType;
 }
 
 const ChangeTodo: FC<ChangeTodoProps> = ({ todo }) => {
